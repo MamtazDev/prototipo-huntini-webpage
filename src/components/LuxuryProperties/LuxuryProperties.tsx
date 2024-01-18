@@ -3,7 +3,6 @@ import g2 from '../../assets/images/g2.svg'
 import g3 from '../../assets/images/g3.svg'
 import g4 from '../../assets/images/g4.svg'
 
-
 const LuxuryProperties = () => {
     return (
         <>
@@ -13,27 +12,26 @@ const LuxuryProperties = () => {
                 <div className="container  m-auto">
                     <div className="grid grid-cols-12 gap-[22px]">
                         <div className="lg:col-span-4 col-span-12 relative">
-                            <img className='w-full' src={g1} alt="" />
-                            <p className='absolute bottom-[66px] left-[46px]  text-[24px] text-white '>Comercial</p>
+                            <img className='h-[100%] w-full' src={g1} alt="" />
+                            <p className='absolute bottom-[66px] left-[46px]  text-[24px] text-white  font-cabinetBold '>Comercial</p>
                         </div>
                         <div className="lg:col-span-4 col-span-12">
                             <div className='relative'>
-                                <img className='w-full mb-[22px]' src={g2} alt="" />
-                                <p className='absolute bottom-[66px] left-[46px]  text-[24px] text-white '>Lançamentos</p>
+                                <img className='h-[100%] w-full mb-[21px]' src={g2} alt="" />
+                                <p className='absolute bottom-[66px] left-[46px]  text-[24px] text-white  font-cabinetBold '>Lançamentos</p>
                             </div>
                             <div className='relative'>
-                                <img className='w-full' src={g3} alt="" />
-                                <p className='absolute bottom-[66px] left-[46px]  text-[24px] text-white '>Residencial</p>
+                                <img className='h-[100%] w-full' src={g3} alt="" />
+                                <p className='absolute bottom-[66px] left-[46px]  text-[24px] text-white  font-cabinetBold '>Residencial</p>
                             </div>
                         </div>
                         <div className="lg:col-span-4 col-span-12 relative">
-                            <img className='w-full' src={g4} alt="" />
-                            <p className='absolute bottom-[66px] left-[46px]  text-[24px] text-white '>Residencial</p>
+                            <img className='h-[100%] w-full' src={g4} alt="" />
+                            <p className='absolute bottom-[66px] left-[46px]  text-[24px] text-white  font-cabinetBold '>Residencial</p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </>
     )
 }
