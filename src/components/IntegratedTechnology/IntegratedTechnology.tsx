@@ -1,6 +1,8 @@
 
 const IntegratedTechnology = () => {
+    
     return (
+
         <>
             <div className="mb-[70px] container m-auto bg-[#463D3C] px-[105px] py-[59px] rounded-[15px]">
                 <div className="flex items-center justify-around  gap-[20px] ">
@@ -14,11 +16,8 @@ const IntegratedTechnology = () => {
                     <div>
                         <button className="max-w-[185px] h-[40px] rounded-[60px] bg-white py-[12px] px-[16px] flex items-center font-bold text-[#463D3C] font-cabinetVariable  ">Quero saber mais</button>
                     </div>
-
                 </div>
-
             </div>
-
         </>
     )
 }
