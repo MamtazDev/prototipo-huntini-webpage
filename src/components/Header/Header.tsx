@@ -30,7 +30,6 @@ const Header = () => {
                             <li><a className='text-base font-medium	'>Conteúdos</a></li>
                         </ul>
                     </div>
-
                 </div>
                 {/* middle */}
                 <img src={logo} alt="logo" />

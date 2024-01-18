@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-part': "url('/src/assets/images/banner.svg')",
+   
+      }
+    },
     fontFamily: {
       cabinetVariable: ['CabinetGrotesk-Variable', 'sans-serif'],
       cabinetThin: ['CabinetGrotesk-Thin', 'sans-serif'],
