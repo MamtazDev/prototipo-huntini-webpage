@@ -5,8 +5,7 @@ const Advertise = () => {
             <div className="container m-auto mb-[127px]">
                 <div className="grid grid-cols-12">
                     <div className="lg:col-span-6 w-[100%] col-span-12">
-                        <img className='w-full  h-[424px] object-cover  ' src={advertise} alt="advertise" />
-
+                        <img className='w-full rounded-tl-[15px] rounded-bl-[15px]  h-[424px] object-cover  ' src={advertise} alt="advertise" />
                     </div>
                     <div className="lg:col-span-6 col-span-12">
                         <div className=' font-cabinetVariable p-[78px] rounded-tr-[15px] rounded-br-[15px] bg-[#8E8768]  h-[424px] '>
