@@ -5,7 +5,7 @@ const Property = () => {
         <>
             <div className="container m-auto mb-[102px]">
                 <div className="grid grid-cols-12 gap-[20px]">
-                    <div className="col-span-6 w-full">
+                    <div className="lg:col-span-6 col-span-12 w-full">
                         <div className='bg-[#dedad4] rounded-[15px] flex flex-col py-[158px] px-[89px] items-start h-[100%] '>
                             <h2 className='text-[#231E1E] mb-[14px] text-[40px] font-bold  '>Selecione o imóvel <br />
                                 ideal para você</h2>
@@ -26,7 +26,7 @@ const Property = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-6 w-full relative  h-[100%]  ">
+                    <div className="lg:col-span-6 col-span-12 w-full relative  h-[100%]  ">
                         <img className=' h-[100%] ' src={property} alt="" />
                         <div className='text-center absolute bottom-[88px] left-[130px] '>
                             <h2 className='text-[#F6F4F2]    text-[42px] font-cabinetVariable font-bold '>Rio Grande do Sul</h2>
