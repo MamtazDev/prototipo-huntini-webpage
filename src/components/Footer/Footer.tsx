@@ -17,11 +17,11 @@ const Footer = () => {
                 <img src={logo} alt="logo" />
               </div>
 
-              <p className="mt-4 max-w-xs text-gray-500">
+              <p className="mt-[35px] text-[12px] font-normal text-[#463D3C]   ">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
               </p>
 
-              <ul className="mt-8 flex gap-6">
+              <ul className="mt-[40px] flex gap-6">
                 <li>
                   <a
                     href="/"
@@ -133,10 +133,10 @@ const Footer = () => {
 
             </div>
           </div>
-          <hr className='bg-[#463D3C] text-[#463D3C] h-[2px]' />
-          <div className='flex justify-between '>
-            <p>Huntini Imobiliária 2022 - CRECI-SP J00.000  |   Todos os Direitos Reservados </p>
-            <p>Politica de privacidade  |  Termos e Condições de uso</p>
+          <hr className=' text-[#463D3C] h-[2px] mt-[40px]  ' />
+          <div className='flex justify-between items-center font-cabinetVariable '>
+            <p className='text-[12px]'><span className=' font-bold  text-[#463D3C] text-[12px] '>Huntini Imobiliária 2022</span> - CRECI-SP J00.000  |   Todos os Direitos Reservados </p>
+            <p className='font-bold text-[#463D3C] text-[12px]'>Politica de privacidade  |  Termos e Condições de uso</p>
           </div>
         </div>
       </footer>
