@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-part': "url('/src/assets/images/banner.svg')",
+        'hero-part': "url('/src/assets/images/blog.png')",
    
       }
     },
