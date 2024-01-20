@@ -1,11 +1,11 @@
 import logo from '../../assets/images/logo.svg'
-
-
+import './Header.css'
+import { IoIosSearch } from "react-icons/io";
 const Header = () => {
     return (
         <div className="container m-auto">
 
-            <div className="navbar bg-base-100 h-[114px] font-[cabinetVariable]  ">
+            <div className="navbar bg-base-100 lg:h-[114px] font-[cabinetVariable]  ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,15 +33,24 @@ const Header = () => {
                 </div>
                 {/* middle */}
                 <img src={logo} alt="logo" />
+                <div className='lg:hidden'>
+                    <a className='p-[10px] bg-[#898078] rounded-[60px] mt-[5px] text-white font-bold hover:bg-[#898078] '><IoIosSearch /></a>
 
-                <div className="navbar-end hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                        <li><a className='text-base font-medium	'>Cadastrar</a></li>
-                        <li><a className='text-base font-bold'>Entrar</a></li>
-                    </ul>
-                </div>
+            </div>
+
+
+
+
+
+            <div className="navbar-end hidden lg:flex lg:items-center ">
+                <ul className="menu menu-horizontal px-1">
+                    <li><a className='text-base font-medium	'>Cadastrar</a></li>
+                    <li><a className='text-base font-bold'>Entrar</a></li>
+                    <li><a className='p-[10px] bg-[#898078] rounded-[60px] mt-[5px] text-white font-bold hover:bg-[#898078] '><IoIosSearch /></a></li>
+                </ul>
             </div>
         </div>
+        </div >
     )
 }
 

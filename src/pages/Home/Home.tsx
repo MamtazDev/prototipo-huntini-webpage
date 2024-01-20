@@ -11,15 +11,15 @@ import Property from "../../components/Property/Property"
 const Home = () => {
   return (
     <>
-      <Banner />
-      <LuxuryProperties />
+      {/* <Banner /> */}
+      {/* <LuxuryProperties />
       <IntegratedTechnology />
-      <Property />
+      <Property /> */}
       {/* <RecentOpportunities /> */}
-      <Advertise />
+      {/* <Advertise />
       <Benefit />
       <Blog />
-      <HomeContact />
+      <HomeContact /> */}
 
     </>
   )

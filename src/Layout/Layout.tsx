@@ -7,7 +7,7 @@ const Layout = () => {
         <div className="bg-[#ebe8e3]">
             <Header />
             <Outlet />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

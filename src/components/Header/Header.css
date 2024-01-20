@@ -1,0 +1,10 @@
+@media(max-width:768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-start {
+        width: 0% !important;
+    }
+}
